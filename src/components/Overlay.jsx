@@ -40,14 +40,14 @@ export const Overlay = () => {
       <div class="w-screen">
         <Section opacity={opacityFirstSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            Hello, I'm Wawa Sensei
+            Hello, I'm Kanak Umrani
           </h1>
-          <p className="text-gray-500">Welcome to my beautiful portfolio</p>
-          <p className="mt-3">I know:</p>
+          {/* <p className="text-gray-500">Welcome to my beautiful portfolio</p> */}
+          <p className="mt-3">About me:</p>
           <ul className="leading-9">
-            <li>🧑‍💻 How to code</li>
-            <li>🧑‍🏫 How to learn</li>
-            <li>📦 How to deliver</li>
+            <li>👩🏻‍💻 XROS'23 Fellow</li>
+            <li>👩🏻‍🎓 BE Final Year Student</li>
+            <li>🐼 Blockchain enthusiast</li>
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
@@ -55,39 +55,43 @@ export const Overlay = () => {
           <h1 className="font-semibold font-serif text-2xl">
             Here are my skillsets 🔥
           </h1>
-          <p className="text-gray-500">PS: I never test</p>
+          <p className="text-gray-500">PS: Only few ones listed here</p>
           <p className="mt-3">
-            <b>Frontend 🚀</b>
+            <b>Tech Stack I use 🚀</b>
           </p>
           <ul className="leading-9">
             <li>ReactJS</li>
-            <li>React Native</li>
-            <li>VueJS</li>
-            <li>Tailwind</li>
+            <li>Three JS</li>
+            <li>Solidity</li>
+            <li>web3.js</li>
+            <li>ethers.js</li>
+            <li>Python</li>
           </ul>
           <p className="mt-3">
-            <b>Backend 🔬</b>
+            <b>🔬 Projects 🔬</b>
+            
           </p>
           <ul className="leading-9">
-            <li>NodeJS</li>
-            <li>tRPC</li>
-            <li>NestJS</li>
-            <li>PostgreSQL</li>
+            <li><a href="https://github.com/daredevil3435/CXRNFT_">NFT Minting dApp</a></li>
+            <li><a href="https://github.com/daredevil3435/todo_dApp">To-Do dApp</a></li>
+            <li><a href="https://github.com/daredevil3435/EventOrgn">Event organization</a></li>
+            
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
         </Section>
         <Section opacity={opacityLastSection}>
           <h1 className="font-semibold font-serif text-2xl">
-            🤙 Call me maybe?
+           Drop email at 
           </h1>
           <p className="text-gray-500">
-            I'm very expensive but you won't regret it
+            I'm always ready to learn new skill
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="tel:(+42) 4242-4242-424242">(+42) 4242-4242-424242</a>
+          📩  <a href="email:kanakumrani02@gmail.com"> kanakumrani02@gmail.com</a>
           </p>
         </Section>
       </div>
     </Scroll>
   );
 };
+
